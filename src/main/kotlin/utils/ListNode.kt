@@ -1,6 +1,7 @@
 package utils
 
 class ListNode(var `val`: Int) {
+    @JvmField
     var next: ListNode? = null
 
     override fun toString(): String {
