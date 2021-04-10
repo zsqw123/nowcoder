@@ -4,17 +4,7 @@ class ListNode(var `val`: Int) {
     var next: ListNode? = null
 
     override fun toString(): String {
-        return `val`.toString() + next.toString()
-    }
-
-    fun printIt() {
-        var now: ListNode? = this
-        while (now != null) {
-            print(now.`val`)
-            print(" ")
-            now = now.next
-        }
-        println()
+        return `val`.toString() + " " + next.toString()
     }
 
     companion object {

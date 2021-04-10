@@ -33,6 +33,6 @@ fun main(){
         }
         return dummy.next
     }
-    val input=ListNode.fromIntArray(intArrayOf(1,2))
-    reverseKGroup(input,2)?.printIt()
+    val input=ListNode.fromIntArray(intArrayOf(1,2,3,4,5))
+    println(reverseKGroup(input,2))
 }
